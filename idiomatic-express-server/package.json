@@ -1,0 +1,20 @@
+{
+  "name": "server-example",
+  "description": "Simple, functional express server.",
+  "version": "1.0.0",
+  "author": "Sean Hellebusch <sahellebusch@gmail.com>",
+  "dependencies": {
+    "config": "^2.0.1",
+    "express": "^4.16.3"
+  },
+  "license": "ISC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --recursive ./test"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "sinon": "^6.3.3"
+  }
+}
